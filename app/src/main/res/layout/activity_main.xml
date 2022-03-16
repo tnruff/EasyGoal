@@ -75,7 +75,8 @@
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:backgroundTint="#FAB216"
-        android:text="@string/new_task"/>
+        android:text="@string/new_task"
+        android:onClick="newTask"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
