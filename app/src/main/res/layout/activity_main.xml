@@ -22,7 +22,7 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/EGlogo"
+        android:src="@drawable/eglogo"
         android:contentDescription="@string/logo_desc"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -39,7 +39,32 @@
         app:layout_constraintTop_toBottomOf="@id/todayLabel"
         android:layout_width="match_parent"
         android:layout_height="2dp"
+        android:id="@+id/bar"
         android:background="#111111"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar"
+        android:text="Complete CSC 536 HW 3"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        android:text="File taxes"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2"
+        android:text="Renew gym membership"
+        android:textSize="20dp"/>
 
     <Button
         android:id="@+id/newTask"
