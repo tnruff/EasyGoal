@@ -17,15 +17,26 @@
         android:src="@drawable/outline_account_circle_black_24dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
+        android:onClick="signIn"
         tools:ignore="RtlHardcoded" />
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/EGlogo"
+        android:src="@drawable/eglogo"
         android:contentDescription="@string/logo_desc"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accLabel"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/accIcon"
+        app:layout_constraintTop_toTopOf="@+id/accIcon"
+        app:layout_constraintBottom_toBottomOf="@+id/accIcon"
+        android:text="Test" />
     <TextView
         android:id="@+id/todayLabel"
         android:layout_width="wrap_content"

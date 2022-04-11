@@ -2,5 +2,6 @@
     <string name="app_name">EasyGoal</string>
     <string name="logo_desc">Logo</string>
     <string name="today">Today</string>
-    <string name="new_task">New Task</string>
+    <string name="new_task">Set Your Goals</string>
+    <string name="warning">You cannot set goals without an account. Please sign in.</string>
 </resources>
